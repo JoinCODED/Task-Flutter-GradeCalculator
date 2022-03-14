@@ -1,6 +1,6 @@
-# Grade Calculator
+# Grade Calculator 🇦
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+![screenshot](https://user-images.githubusercontent.com/84308096/158198001-e9017006-6726-44d0-8ada-95b709eed7ff.png)
 
 ## Instructions
 
