@@ -5,14 +5,15 @@
 ## 🍋 Instructions
 
 1. Create an app called: grade_calculator.
-2. Create a stateless widget `HomeScreen` with a `Scaffold`.
+2. Create a stateless widget `HomeScreen` that returns a `Scaffold` widget.
 3. Create an `AppBar` with a `title`.
-4. In your scaffold body, create a `Column` widget.
-5. Inside the Column widget, create 3 widgets: `TextField`, `ElevatedButton` and a `Text` widget.
-6. Style your TextField, Button and text Widgets.
-7. Create a `TextEditingController` for the `TextField` and assign it to the `TextField`.
-8. Create a `String` variable to store the result in and replace it with the text in your `Text` widget.
-9. Create a function to calculate the result following those conditions:
+4. Pass a `Column` widget to the `Scaffold` body.
+5. Inside the `Column`'s children, create 3 widgets: `TextField`, `ElevatedButton` and a `Text` widget.
+6. Style your `TextField`, `Button` and `Text` Widgets.
+7. Run the app to make sure that everything is working fine on the screen.
+8. Create a `TextEditingController` for the `TextField`, then assign it to the `TextField`'s controller.
+9. Create a `String` variable to store the result in, then pass it to the `Text` widget.
+10. Create a function that takes the grade as an input and then calculates the result following the conditions below:
 
 ```
 A if score >= 90%
@@ -22,7 +23,8 @@ D if score >= 60%
 F if score  < 60%
 ```
 
-10. In your `onPressed` function, create a variable and store the value of the `TextEditingController` in it.
-11. Call the function you created and pass the variable to it, then assign the returned value to the result variable.
+11. In your `onPressed` function:
+    - Create a variable called **grade** and store the value of the `TextEditingController` in it.
+    - Call the function you created and pass the **grade** variable to it, then assign the returned value to the result variable.
 12. Convert the `HomeScreen` to a stateful widget.
-13. Call `setState` and move the result assignment to it.
+13. Call `setState` in your `onPressed` function and move the result assignment to it.
